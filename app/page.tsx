@@ -99,7 +99,7 @@ export default function Home() {
               className="max-w-3xl mx-auto"
             >
               <h2 className="text-4xl font-bold mb-4 text-white">
-                Begin Your Ministry Journey Today
+                Begin Your Ministerial Journey Today
               </h2>
               <p className="mb-8 text-white/90 text-lg">
                 Join us in shaping the future of ministry through practical, Spirit-led training.

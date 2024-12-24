@@ -261,7 +261,7 @@ export default function Programs() {
                     >
                         <h2 className="text-4xl font-bold mb-4">Ready to Begin Your Journey?</h2>
                         <p className="mb-8 text-white/90 max-w-2xl mx-auto text-lg">
-                            Take the first step towards your ministry calling. Apply now to join our
+                            Take the first step towards your ministerial calling. Apply now to join our
                             community of dedicated learners and future ministry leaders.
                         </p>
                         <Link
