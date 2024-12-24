@@ -16,6 +16,7 @@ import Image from 'next/image';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [open, setOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -87,7 +88,7 @@ const Navbar = () => {
 
           {/* Mobile Navigation */}
           <div className="md:hidden">
-            <Sheet>
+            <Sheet open={open} onOpenChange={setOpen}>
               <SheetTrigger asChild>
                 <button
                   type="button"
@@ -108,6 +109,7 @@ const Navbar = () => {
                         <Link
                           key={item.name}
                           href={item.href}
+                          onClick={() => setOpen(false)}
                           className={`px-4 py-3 text-lg font-medium transition-colors rounded-md
                             ${item.highlight
                               ? 'bg-plsom-red text-white hover:bg-plsom-secondary-burgundy'
